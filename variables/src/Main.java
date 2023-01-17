@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int ogrenciSayisi = 10;
+        String mesaj ="Öğrenci Sayısı: ";
+        System.out.println("Öğrenci sayım: "+ogrenciSayisi);
+        System.out.println(mesaj+ogrenciSayisi);
     }
 }
